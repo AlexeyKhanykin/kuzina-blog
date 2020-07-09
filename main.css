@@ -1,0 +1,151 @@
+:root {
+  --main-color: balck;
+}
+
+.main-color{
+    background-color: #DED0CA;    
+}
+
+.main-color-text{
+    color: var(--main-color);
+}
+
+*, *:before, *:after {
+-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+#rectangle-hz {
+	height: 2px;
+	background: whitesmoke;
+    margin: 40px;
+}
+
+.line{
+	height: 2px;
+	background: black;
+    margin: 40px;
+}
+
+#rectangle-wr {
+	height: 350px;
+    width: 2px;
+	background: whitesmoke;
+    position: absolute;
+    top: 50%;
+    right:60%;
+}
+
+html, body {
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+body {
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.nav-bar{
+    margin: 30px;
+    margin-left: 0;
+}
+
+.nav-bar > div > a{
+    color: var(--main-color);
+    font-size: 12pt;
+}
+
+
+
+#welcome-img{
+    width: 25em;
+    position: absolute;
+    top: 20%;
+    right: 68%;
+}
+
+.social > a{
+    margin: 3px;
+}
+
+.btn-custom{
+    background-image: url(img/button.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: transparent;
+    border-style: solid;
+    color: black;
+}
+
+#welcome-text {
+	transform: rotate(90deg);
+	transform-origin: right bottom;
+    position: absolute;
+    right: 62%;
+    top: 40%;
+    font-size: 26pt;
+    color: whitesmoke;
+}
+
+.about{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #F4F4F4;
+    text-align: center;
+    padding: 80px;
+    
+}
+
+#about-img {
+    width:400px;
+    height:500px;
+    background-image: url(img/img2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#about-img-border{
+    top: -11%;
+    right: -15%;
+    width: 70%;
+    height: 120%;
+    border-width: 5px;
+    background-position: center center;
+    border-color: #DED0CA;
+    border-style: solid;
+    position: relative;
+}
+
+.about-text{
+    margin: 50px;
+}
+
+.col.content-center{
+    text-align: center;
+    margin: auto;
+}
+
+.services{
+    padding: 65px;
+}
+
+.carousel{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(100%);
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
