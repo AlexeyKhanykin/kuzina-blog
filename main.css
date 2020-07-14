@@ -22,7 +22,6 @@
 #rectangle-hz {
 	height: 2px;
 	background: whitesmoke;
-    margin: 40px;
 }
 
 .line{
@@ -32,12 +31,10 @@
 }
 
 #rectangle-wr {
-	height: 350px;
+	height: 100%;
+    margin: auto;
     width: 2px;
 	background: whitesmoke;
-    position: absolute;
-    top: 50%;
-    right:60%;
 }
 
 html, body {
@@ -53,10 +50,27 @@ body {
     padding: 0;
 }
 
+.gradient-bg{
+    background: linear-gradient(90deg, whitesmoke 58.3%, #DED0CA 58.3%);
+}
+
+.nav-bar-mini{
+    margin: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+   
+}
+
+.nav-bar-mini > .div > a {
+    color: black;
+    outline: none;
+    text-decoration: none;
+}
+
 .nav-bar{
     margin: 30px;
-    margin-left: 0;
 }
+
 
 .nav-bar > div > a{
     color: var(--main-color);
@@ -64,17 +78,10 @@ body {
 }
 
 
-
-#welcome-img{
-    width: 25em;
-    position: absolute;
-    top: 20%;
-    right: 68%;
+.social{
+    margin: 15px;
 }
 
-.social > a{
-    margin: 3px;
-}
 
 .btn-custom{
     background-image: url(img/button.svg);
@@ -86,11 +93,19 @@ body {
     color: black;
 }
 
-#welcome-text {
+#welcome-img{
+    width: 80%;
+    margin: 50px;
+}
+
+
+#welcome-text{
+    margin: auto;
 	transform: rotate(90deg);
-    position: relative;
     font-size: 26pt;
     color: whitesmoke;
+    
+    
 }
 
 .about{
