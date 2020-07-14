@@ -55,13 +55,14 @@ body {
 }
 
 .nav-bar-mini{
-    margin: auto;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
    
 }
 
-.nav-bar-mini > .div > a {
+
+.nav-bar-mini > div > a {
     color: black;
     outline: none;
     text-decoration: none;
