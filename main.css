@@ -14,6 +14,11 @@
 -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
+.theme{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 #rectangle-hz {
 	height: 2px;
 	background: whitesmoke;
@@ -83,39 +88,35 @@ body {
 
 #welcome-text {
 	transform: rotate(90deg);
-	transform-origin: right bottom;
-    position: absolute;
-    right: 62%;
-    top: 40%;
+    position: relative;
     font-size: 26pt;
     color: whitesmoke;
 }
 
 .about{
-    margin-left: 10%;
-    margin-right: 10%;
     background-color: #F4F4F4;
-    text-align: center;
-    padding: 80px;
-    
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
+
+
 #about-img {
-    width:400px;
-    height:500px;
+    width: 18rem;
+    height: 25rem;
     background-image: url(img/img2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    margin:auto;
+    margin-top: 5%;
     
 }
 
 #about-img-border{
-    top: -11%;
-    right: -15%;
-    width: 70%;
+    width: 80%;
     height: 120%;
-    border-width: 5px;
-    background-position: center center;
+    top: -12%;
+    right: -10%;
     border-color: #DED0CA;
     border-style: solid;
     position: relative;
@@ -125,6 +126,8 @@ body {
     margin: 50px;
 }
 
+
+
 .col.content-center{
     text-align: center;
     margin: auto;
@@ -132,6 +135,7 @@ body {
 
 .services{
     padding: 65px;
+    padding-top: 0;
 }
 
 .carousel{
